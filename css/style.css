@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: SourceSansPro-Bold;
+    src: url(../font/SourceSansPro-Bold.ttf);
+}
+@font-face{
+    font-family: SourceSansPro-Regular;
+    src: url(../font/SourceSansPro-Regular.ttf);
+}
+.basic{
+    display: flex;
+}
+body{
+background-color: #F2ECE6;
+}
+.inside{
+    padding: 2em 0em;
+    background-color: #F5F8FA;
+}
+.inbox{
+    /* padding: 2em 1.5em; */
+}
+.img{
+    display: flex;
+    font-family: SourceSansPro-Regular;
+    padding-left: 3em;
+}
+.contant{
+    padding: 12px 11px;
+}
+.text{
+    font-family:SourceSansPro-Bold ;
+    font-size: 20px;
+    color: #1FB5EB;
+}
+.branch{
+    background-color: #ffffff;
+    margin-top: 2em;
+    border-left: #1FB5EB solid;
+    border-width: 1em;
+    padding: 2em 1.9em;
+}
+.later{
+    font-size: 24px;
+    font-family:SourceSansPro-Bold ;
+    color: #000000;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.number{
+    padding: 4px 22px;
+    background-color:#FF5F5F ;
+    font-size: 20px;
+    font-family: SourceSansPro-Regular;
+    border-radius: 1em;
+    border: none;
+    color: #fff;
+    font-weight: 100;
+}
+.Flagged{
+    padding: 2em 2.1em;
+}
+.word{
+    font-family: SourceSansPro-Regular;
+    font-size: 24px;
+    padding-left: 1em;
+}
+.add{
+    padding: 4px 15px;
+    background-color:#C7DFEF ;
+    font-size: 20px;
+    font-family: SourceSansPro-Regular;
+    border-radius: .8em;
+    border: none;
+    color: #fff;
+    font-weight: 100;
+}
+.other-hand{
+    padding: 2em 2em;
+}
+.file{
+    font-family:SourceSansPro-Bold ;
+    color: #000000;
+    font-size: 30px;
+    padding-right: 1em;
+}
+.blue{
+    padding: 1.5em 0em;
+}
+.compose{
+    background-color:#FF5F5F ;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: SourceSansPro-Regular;
+    padding: .5em 3em;
+    border: none;
+    border-radius: .9em;
+    margin-top: 2em;
+}
+.middl{
+    background-color: #F9FAF5;
+}
+.edit{
+    padding: 2em;
+}
+.serch{
+    background-color: #ffffff;
+    padding: .6em 2em;
+    padding-right: 15em;
+    color: #333333;
+    font-size: 18px;
+    font-family: SourceSansPro-Regular;
+}
+.miller{
+    display: flex;
+}
+.today{
+    padding:1em ;
+}
+.time{
+    padding-left: 4em;
+    padding-right: .5em;
+    font-family:SourceSansPro-Bold ;
+    font-size: 14px;
+}
+.class{
+    font-family:SourceSansPro-Bold ;
+    font-size: 14px;  
+}
+.name{
+    font-family:SourceSansPro-Bold ;
+    font-size: 20px;
+    color: #000000;
+}
+.protfolio{
+    font-family:SourceSansPro-Regular ;
+    font-size: 20px;
+    color: #000000;
+}
+.box{
+    padding: 2em;
+}
+.box-size{
+    padding: 2em;
+}
+.person{
+    background-color: #ffffff;
+    padding:1em 1em;
+    border-radius: 1em;
+}
+.person-size{
+    background-color: #ffffff;
+    padding:1em 1em;
+    border-radius: 1em;
+    box-shadow: 0em 1em 1em 0em #e4e3e3;
+    border: #ffffff solid;
+}
+.long{
+color: #333333;
+opacity: .8;
+font-family:SourceSansPro-Regular ;
+font-size: 16px;
+padding: .5em 1em;
+}
+.link{
+    color: #1FB5EB;
+    font-family:SourceSansPro-Regular ;
+font-size: 16px;
+padding: .5em 2em;
+}
+.last{
+    background-color: #ffffff;
+}
+.shep{
+    padding: 2em;
+}
+.shep img{
+    padding-right: .7em;
+}
+.pag{
+    padding-left: 9.7em;
+    font-family:SourceSansPro-Regular ;
+font-size: 20px;
+}
+.gmail{
+    color: #333333;
+opacity: .8;
+font-family:SourceSansPro-Regular ;
+font-size: 16px;
+}
+.account{
+    font-family:SourceSansPro-Bold ;
+    font-size: 14px;
+    color: #000000;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.style{
+    display: flex;
+    padding: 2em;
+}
+.relishonship{
+    font-family:SourceSansPro-Bold ;
+    font-size: 24px;
+    color: #000000;
+    padding-bottom: .5em;
+}
+.paragraph{
+    color: #333333;
+    opacity: .8;
+    font-family:SourceSansPro-Regular ;
+    font-size: 16px;
+    text-align: justify;
+    padding: 1em 2em;
+}
+.last-link{
+    color: #1FB5EB;
+    font-family:SourceSansPro-Regular ;
+font-size: 16px;
+padding: .5em 0em;
+}
+.photo{
+    display: flex;
+}
+.pexel{
+    padding-right: .5em;
+}
+.downlood{
+    padding: 2em;
+    display: flex;
+}
+.group{
+    color: #333333;
+    opacity: .8;
+    font-family:SourceSansPro-Regular ;
+    font-size: 16px;
+    border: #333333 solid;
+    opacity: .5;
+    border-width: 1;
+    border-radius: 5px;
+    padding: .3em;
+}
+.total{
+    color: #333333;
+    opacity: .8;
+    font-family:SourceSansPro-Regular ;
+    font-size: 16px;
+    padding: 0em 2em;
+}
+.type{
+    border: #333333 solid;
+    opacity: .5;
+    border-width: 1;
+    border-radius: 5px;
+    padding: .3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.type span{
+    padding-right: 12em;
+}
+.copyright{
+    color: #333333;
+    opacity: .8;
+    font-family:SourceSansPro-Regular ;
+    font-size: 16px;
+}
